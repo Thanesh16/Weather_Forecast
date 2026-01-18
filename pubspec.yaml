@@ -1,0 +1,36 @@
+name: weather_forecast
+description: "A new Flutter project used to display th current weather forecast in your location."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.4.0
+  google_fonts: ^6.2.1
+  intl: ^0.20.2
+  flutter_riverpod: ^2.6.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+
+flutter_icons:
+   android: true
+   ios: true
+   image_path: "assets/weather_app_logo.png"    
